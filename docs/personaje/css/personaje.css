@@ -9,6 +9,7 @@ body.pj input[type=text], body.pj input[type=number], body.pj textarea {
 }
 body.pj textarea { width: 100%; resize: vertical; box-sizing: border-box; }
 body.pj input.cant { width: 4.5rem; }
+body.pj .banda-equipo input[type=number] { width: 6rem; text-align: right; }
 body.pj .vacio { color: var(--muted); padding: 2rem 0; }
 body.pj .mal { color: var(--mal); }
 body.pj .bien { color: #2e7d32; }

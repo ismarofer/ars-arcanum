@@ -21,6 +21,43 @@
   const dadosKit = k => { const m = /(\d+)d(\d+)\s+(?:arquillas|marcos)/i.exec((k && k.body) || ''); return m ? [+m[1], +m[2]] : null; };
   // En Mistborn Era 2 el dinero inicial se multiplica por 10; en Stormlight no
   const factorDinero = c => (PJ.ambito(c) === 'Mistborn' && c.era === 2 ? 10 : 1);
+  const tiraDados = (d, c) => { let t = 0; for (let i = 0; i < d[0]; i++) t += 1 + Math.floor(Math.random() * d[1]); return t * factorDinero(c); };
+
+  // Contenido fijo de cada conjunto (el libro lo da en prosa). Lo que el libro deja "a tu elección" no se añade:
+  // lo elige la persona jugadora. Los nombres son el slug del id; en Stormlight el id lleva "-stormlight-".
+  const KIT_OBJETOS = {
+    'equipo-inicial-de-artesano': { armadura: 'cuero', equipo: [['arcon'], ['ropa-comun'], ['suministros-quirurgicos'], ['antiseptico-debil-5-dosis'], ['calamo'], ['tinta-vial-de-30-ml'], ['papel-o-pergamino-1-hoja', 5], ['vela', 5], ['pedernal-y-acero'], ['botella-cristal', 3], ['diapason'], ['instrumento-musical'], ['balanza']] },
+    'equipo-inicial-de-bajos-fondos': { armadura: 'cuero', equipo: [['mochila'], ['ropa-comun'], ['alcohol-botella'], ['nudilleras'], ['palanca'], ['ganzua'], ['cuerda-15-metros'], ['pedernal-y-acero'], ['linterna-aceite'], ['aceite-1-frasco'], ['comida-callejera-1-dia', 5]] },
+    'equipo-inicial-de-noble': { armas: ['baston-de-duelo'], equipo: [['alcohol-botella'], ['ropa-buena']] },
+    'equipo-inicial-de-fugitivo': { equipo: [['ropa-raida']] },
+    'equipo-inicial-de-guardador': { equipo: [['ropa-buena']] },
+    'equipo-inicial-de-indagador': { armas: era => [era === 1 ? 'cuchillo' : 'pistola-de-bota'], armadura: 'uniforme', equipo: [['mochila'], ['ropa-comun'], ['calamo'], ['tinta-vial-de-30-ml'], ['papel-o-pergamino-1-hoja', 20], ['linterna-aceite'], ['libro-referencia'], ['cerradura-y-llave']] },
+    'equipo-inicial-de-mercenario': { armadura: 'coraza', equipo: [['mochila'], ['ropa-comun'], ['odre'], ['lupa'], ['palanca'], ['grilletes'], ['comida-racion-1-dia', 10]] },
+    'equipo-stormlight-inicial-prisionero': { equipo: [['grilletes'], ['ropa-raida']] },
+    'equipo-stormlight-inicial-bajos-fondos': { armadura: 'cuero', equipo: [['mochila'], ['ropa-comun'], ['alcohol-botella'], ['palanca'], ['ganzua'], ['cuerda-15-metros'], ['pedernal-y-acero'], ['linterna-aceite'], ['aceite-1-frasco'], ['comida-callejera-1-dia', 5]] },
+    'equipo-stormlight-inicial-academico': { armadura: 'uniforme', equipo: [['mochila'], ['ropa-comun'], ['calamo'], ['tinta-vial-de-30-ml'], ['papel-o-pergamino-1-hoja', 10], ['vial-cristal', 3], ['cera-1-bloque'], ['libro-de-referencia'], ['veneno-debil-1-dosis']] },
+    'equipo-stormlight-inicial-artesano': { armadura: 'cuero', equipo: [['arcon'], ['ropa-comun'], ['suministros-quirurgicos'], ['antiseptico-debil-5-dosis'], ['calamo'], ['tinta-vial-de-30-ml'], ['papel-o-pergamino-1-hoja', 5], ['vela', 5], ['pedernal-y-acero'], ['botella-cristal', 3], ['diapason'], ['instrumento-musical'], ['balanza']] },
+    'equipo-stormlight-inicial-militar': { armadura: 'malla', equipo: [['mochila'], ['ropa-comun'], ['odre'], ['pedernal-y-acero'], ['piedra-de-afilar'], ['manta'], ['comida-racion-1-dia', 10]] },
+    'equipo-stormlight-inicial-cortesano': { equipo: [['alcohol-botella'], ['ropa-buena']] },
+  };
+  // Quita lo que añadió el conjunto anterior y añade el del nuevo (todo marcado como "del conjunto", gratis)
+  const aplicaKit = (cc, id) => {
+    const D = PJ.datos(), sl = !!id && id.includes('stormlight');
+    const res = (cat, slug) => { const i = sl ? `${cat}-stormlight-${slug}` : `${cat}-${slug}`; return D.byId[i] ? i : null; };
+    if (cc.armaduraKit) { cc.armadura = null; cc.armaduraKit = false; }
+    cc.armas = cc.armas.filter(w => !w.delKit);
+    cc.equipo = cc.equipo.filter(it => !it.delKit);
+    const def = id && KIT_OBJETOS[id];
+    if (!def) return;
+    const a = def.armadura && !cc.armadura && res('armadura', def.armadura);
+    if (a) { cc.armadura = a; cc.armaduraGratis = true; cc.armaduraKit = true; }
+    (typeof def.armas === 'function' ? def.armas(cc.era) : def.armas || []).forEach(s => {
+      const r = res('arma', s); if (r) cc.armas.push({ ref: r, nombre: D.byId[r].title, gratis: true, delKit: true });
+    });
+    (def.equipo || []).forEach(([s, n]) => {
+      const r = res('equipo', s); if (r) cc.equipo.push({ ref: r, nombre: D.byId[r].title, cant: n || 1, gratis: true, delKit: true });
+    });
+  };
 
   // El estado de la interfaz (sección y filtros) vive aquí porque cambiar() reconstruye todo el asistente
   const eq = { sec: 'inicial', tipo: '', peso: '', cat: '', busca: '' };
@@ -74,13 +111,11 @@
       const elegir = (id, libre) => cambiar(cc => {
         cc.kit = id; cc.equipoLibre = libre;
         cc.poderes.filter(p => p.origen === 'inicial').forEach(p => { p.desbloqueado = defDesbloqueado(cc, p.arte); });
-        if (id) { cc.armaduraGratis = false; cc.armas.forEach(w => { delete w.gratis; }); cc.equipo.forEach(it => { delete it.gratis; }); fijarArquillas(cc, 0); } else fijarArquillas(cc, iniDe(cc));
+        cc.armaduraGratis = false; cc.armas.forEach(w => { delete w.gratis; }); cc.equipo.forEach(it => { delete it.gratis; });
+        aplicaKit(cc, id);
+        if (id) { fijarArquillas(cc, dadosKit(byId[id]) ? tiraDados(dadosKit(byId[id]), cc) : 0); } else fijarArquillas(cc, 0);
       });
-      const tirar = () => {
-        let t = 0;
-        for (let i = 0; i < dados[0]; i++) t += 1 + Math.floor(Math.random() * dados[1]);
-        mut(cc => t * factorDinero(cc));
-      };
+      const tirar = () => mut(cc => tiraDados(dados, cc));
       return h('div', null,
         h('ul', { class: 'lista talentos' },
           fila({
@@ -96,7 +131,6 @@
             });
           })),
         c.kit || c.equipoLibre ? h('div', { class: 'form fila' },
-          h('label', null, divisa(c).Divisa + ' iniciales', h('input', { type: 'number', min: 0, step: 'any', value: iniDe(c), onchange: e => mut(() => Math.max(0, +e.target.value || 0)) })),
           dados ? h('button', { type: 'button', class: 'btn', onclick: tirar }, `Tirar ${dados[0]}d${dados[1]}${factorDinero(c) > 1 ? ' × ' + factorDinero(c) : ''}`) : null,
           kit && !dados ? h('span', { class: 'nota' }, 'Este conjunto no incluye dinero.') : null) : h('p', { class: 'muted' }, 'Elige un conjunto o marca "Elección libre" para fijar tus ' + divisa(c).divisa + ' iniciales.'));
     };
@@ -111,8 +145,11 @@
         h('div', { class: 'be-fila' },
           h('span', null, h('b', null, 'Equipo inicial: '),
             kit ? kit.title.replace(/^Equipo inicial de /i, '').replace(/^./, s => s.toUpperCase()) : c.equipoLibre ? 'Elección libre' : 'sin elegir'),
-          kit ? h('button', { type: 'button', class: 'btn small', onclick: () => PJ.ui.abrirPanel(kit.id) }, 'Ver conjunto') : null,
-          h('span', { class: 'cifras' }, cifra(divisa(c).Divisa + ' iniciales', ini), cifra('Gastadas', gasto), cifra('Restantes', resto, resto < 0 ? 'mal' : ''))),
+          kit ? h('button', { type: 'button', class: 'btn small clic', onclick: () => PJ.ui.abrirPanel(kit.id) }, 'Ver conjunto') : null,
+          h('span', { class: 'cifras' }, (kit || c.equipoLibre
+            ? h('label', { class: 'cifra' }, h('span', { class: 'nota' }, divisa(c).Divisa + ' iniciales'),
+              h('input', { type: 'number', min: 0, step: 'any', 'aria-label': divisa(c).Divisa + ' iniciales', value: ini, onchange: e => mut(() => Math.max(0, +e.target.value || 0)) }))
+            : cifra(divisa(c).Divisa + ' iniciales', ini)), cifra('Gastadas', gasto), cifra('Restantes', resto, resto < 0 ? 'mal' : ''))),
         resto < 0 ? h('p', { class: 'mal nota' }, `Te pasas ${fmtAr(-resto)} ${divisa(c).divisa}.`) : null,
         lineas.length ? h('details', null, h('summary', null, 'Incluido en el conjunto'), h('ul', { class: 'lista' }, lineas.map(l => h('li', null, l)))) : null);
     };

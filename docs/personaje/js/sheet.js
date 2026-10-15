@@ -2,7 +2,7 @@
 (function (g) {
   'use strict';
   const PJ = g.PJ;
-  const { h, contador, barra, avisosLista, enlaceEntrada, descargar, slugNombre, aviso, tarjeta, costeTxt, abre, chipCoste } = PJ.ui;
+  const { h, contador, barra, avisosLista, enlaceEntrada, descargar, slugNombre, aviso, tarjeta, fila, descEquipo, limpioTitulo, costeTxt, abre, chipCoste } = PJ.ui;
 
   const TABS = [['resumen', 'Ficha'], ['acciones', 'Acciones'], ['talentos', 'Talentos'], ['poderes', 'Poderes'], ['equipo', 'Equipo'], ['historia', 'Historia'], ['ajustes', 'Ajustes']];
   let tabActual = 'resumen';
@@ -290,17 +290,28 @@
         kit ? h('span', null, h('b', null, 'Conjunto '), enlaceEntrada(kit.id, kit.title.replace(/^Equipo inicial de /i, ''))) : null),
       d.peso > d.carga ? h('p', { class: 'mal' }, 'Llevas más peso que tu capacidad de carga.') : null,
       h('h4', null, 'Armadura'),
-      arm ? h('p', null, enlaceEntrada(arm.id), ` · desvío ${arm.f.desvio || 0}`) : h('p', { class: 'muted' }, 'Sin armadura.'),
+      arm ? h('ul', { class: 'lista talentos' }, fila({
+        ref: arm.id, titulo: limpioTitulo(arm.title), corta: descEquipo(arm),
+        chips: [h('span', { class: 'chip small' }, 'Desvío ' + (arm.f.desvio || 0)), c.armaduraGratis ? h('span', { class: 'chip small soft' }, 'Del conjunto') : null],
+      })) : h('p', { class: 'muted' }, 'Sin armadura.'),
       h('h4', null, 'Armas'),
-      c.armas.length ? h('table', { class: 'tabla' }, h('thead', null, h('tr', null, ['Arma', 'Ataque', 'Daño', 'Rasgos'].map(t => h('th', null, t)))),
-        h('tbody', null, c.armas.map(w => {
-          const e = w.ref && D.byId[w.ref], f = (e && e.f) || {};
-          const hab = d.habilidades[f.habilidad];
-          return h('tr', null, h('td', null, e ? enlaceEntrada(e.id) : w.nombre), h('td', null, hab ? signo(hab.mod) : '—'), h('td', null, f.dano || '—'), h('td', null, f.rasgos_txt || ''));
-        }))) : h('p', { class: 'muted' }, 'Sin armas.'),
+      c.armas.length ? h('ul', { class: 'lista talentos' }, c.armas.map(w => {
+        const e = w.ref && D.byId[w.ref], f = (e && e.f) || {};
+        const hab = d.habilidades[f.habilidad];
+        return fila({
+          ref: e ? e.id : null, titulo: e ? limpioTitulo(e.title) : w.nombre, corta: e ? descEquipo(e) : '',
+          chips: [hab ? h('span', { class: 'chip small' }, 'Ataque ' + signo(hab.mod)) : null, f.dano ? h('span', { class: 'chip small' }, f.dano) : null,
+            w.gratis ? h('span', { class: 'chip small soft' }, 'Del conjunto') : null],
+        });
+      })) : h('p', { class: 'muted' }, 'Sin armas.'),
       h('h4', null, 'Objetos'),
-      c.equipo.length ? h('table', { class: 'tabla' }, h('thead', null, h('tr', null, ['Cant.', 'Objeto'].map(t => h('th', null, t)))),
-        h('tbody', null, c.equipo.map(it => h('tr', null, h('td', null, String(it.cant || 1)), h('td', null, it.ref ? enlaceEntrada(it.ref, it.nombre) : it.nombre))))) : h('p', { class: 'muted' }, 'Sin objetos.'));
+      c.equipo.length ? h('ul', { class: 'lista talentos' }, c.equipo.map(it => {
+        const e = it.ref && D.byId[it.ref];
+        return fila({
+          ref: e ? e.id : null, titulo: e ? limpioTitulo(e.title) : it.nombre, corta: e ? descEquipo(e) : '',
+          chips: [(it.cant || 1) > 1 ? h('span', { class: 'chip small' }, '×' + it.cant) : null, it.gratis ? h('span', { class: 'chip small soft' }, 'Del conjunto') : null],
+        });
+      })) : h('p', { class: 'muted' }, 'Sin objetos.'));
 
     // ---------------- Historia
     const historia = h('section', { class: 'pnl', 'data-tab': 'historia' }, h('h3', null, 'Historia'),
