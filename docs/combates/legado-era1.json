@@ -1,0 +1,6335 @@
+{
+ "version": 2,
+ "abierto": null,
+ "encuentros": [
+  {
+   "id": "c6nvbtp3",
+   "nombre": "Cap. 1 · C4 Sala de guardia [4 jugadores]",
+   "jugadores": 4,
+   "nivel": 1,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 4 JUGADORES (el libro está pensado para 4: amenaza 1; objetivo escalado 1; composición con amenaza 1).\nComposición: 2 Soldado de guarnición.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nEcos de lo perdido, C4. Los soldados de guarnición custodian las escaleras con arcos largos (Sorprendidos si los PJs van con sigilo). El libro pone 2 soldados.\nCampo de batalla: rastrillo de acero que divide la sala (Atletismo CD 12 para levantarlo, o 5 de daño por golpe para doblarlo). O: el rastrillo atrapa el pie de un soldado (1d4 golpe). C: un soldado gasta 2 de concentración y usa Disparo en salva.\nFinal: al someter a uno, el otro se rinde. Saben poco (Vadilek Elariel, nobles elegantes, Enge entró sola).",
+   "combatientes": [
+    {
+     "id": "o542q4g2",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "pw2dkd3y",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cc9wz2yz",
+   "nombre": "Cap. 1 · C4 Sala de guardia [5 jugadores]",
+   "jugadores": 5,
+   "nivel": 1,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 5 JUGADORES (el libro está pensado para 4: amenaza 1; objetivo escalado 1.25; composición con amenaza 1).\nComposición: 2 Soldado de guarnición.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nEcos de lo perdido, C4. Los soldados de guarnición custodian las escaleras con arcos largos (Sorprendidos si los PJs van con sigilo). El libro pone 2 soldados.\nCampo de batalla: rastrillo de acero que divide la sala (Atletismo CD 12 para levantarlo, o 5 de daño por golpe para doblarlo). O: el rastrillo atrapa el pie de un soldado (1d4 golpe). C: un soldado gasta 2 de concentración y usa Disparo en salva.\nFinal: al someter a uno, el otro se rinde. Saben poco (Vadilek Elariel, nobles elegantes, Enge entró sola).",
+   "combatientes": [
+    {
+     "id": "bvoq0xw3",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "ccgibqp4",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cbly8mdp",
+   "nombre": "Cap. 1 · C4 Sala de guardia [6 jugadores]",
+   "jugadores": 6,
+   "nivel": 1,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 6 JUGADORES (el libro está pensado para 4: amenaza 1; objetivo escalado 1.5; composición con amenaza 1.5).\nComposición: 3 Soldado de guarnición.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nEcos de lo perdido, C4. Los soldados de guarnición custodian las escaleras con arcos largos (Sorprendidos si los PJs van con sigilo). El libro pone 2 soldados.\nCampo de batalla: rastrillo de acero que divide la sala (Atletismo CD 12 para levantarlo, o 5 de daño por golpe para doblarlo). O: el rastrillo atrapa el pie de un soldado (1d4 golpe). C: un soldado gasta 2 de concentración y usa Disparo en salva.\nFinal: al someter a uno, el otro se rinde. Saben poco (Vadilek Elariel, nobles elegantes, Enge entró sola).",
+   "combatientes": [
+    {
+     "id": "qikadxot",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "czlikc1o",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "jn84ah6q",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 3",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c33wxzoq",
+   "nombre": "Cap. 1 · C11 El Crisol: bestia hemalúrgica [4 jugadores]",
+   "jugadores": 4,
+   "nivel": 1,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 4 JUGADORES: combate climático, no se añaden adversarios; se escala la salud de Bestia hemalúrgica (rango de su ficha 29-43): 36 PS (4 jugadores = libro, 6 = máxima, 5 = intermedia).\nComposición: 1 Bestia hemalúrgica (igual para 4, 5 y 6 jugadores).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nEcos de lo perdido, C10-C11. La bestia merodea por el vestíbulo; en la 2.ª ronda de un combate en el almacén (C9) se lanza hacia el Crisol y arranca la puerta de acero. Ataca a los prisioneros skaa de la celda.\nCampo de batalla: araña de luces (ataque a distancia a la cadena CD 13; 3d6 golpe y Distraído a quien esté debajo); mesas de acero (Prevenirse 1 para esconderse: no puede marcarlo); el clavo del cuello se puede extraer (ver ficha).\nLucha hasta la muerte; el clavo de nicrosil queda inerte. Momento de legado del Veterano: Tuss pide ayuda a gritos y atrae a la bestia (Disciplina CD 11; éxito: 1d4 extra a un dado de la siguiente prueba de todos).",
+   "combatientes": [
+    {
+     "id": "wocw2jdl",
+     "fuente": "Bestia hemalúrgica (Legado)",
+     "nombre": "Bestia hemalúrgica",
+     "rol": "Jefe",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 36,
+      "max": 36
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      29,
+      43
+     ],
+     "atributos": {
+      "fue": 3,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cibke825",
+   "nombre": "Cap. 1 · C11 El Crisol: bestia hemalúrgica [5 jugadores]",
+   "jugadores": 5,
+   "nivel": 1,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 5 JUGADORES: combate climático, no se añaden adversarios; se escala la salud de Bestia hemalúrgica (rango de su ficha 29-43): 40 PS (4 jugadores = libro, 6 = máxima, 5 = intermedia).\nComposición: 1 Bestia hemalúrgica (igual para 4, 5 y 6 jugadores).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nEcos de lo perdido, C10-C11. La bestia merodea por el vestíbulo; en la 2.ª ronda de un combate en el almacén (C9) se lanza hacia el Crisol y arranca la puerta de acero. Ataca a los prisioneros skaa de la celda.\nCampo de batalla: araña de luces (ataque a distancia a la cadena CD 13; 3d6 golpe y Distraído a quien esté debajo); mesas de acero (Prevenirse 1 para esconderse: no puede marcarlo); el clavo del cuello se puede extraer (ver ficha).\nLucha hasta la muerte; el clavo de nicrosil queda inerte. Momento de legado del Veterano: Tuss pide ayuda a gritos y atrae a la bestia (Disciplina CD 11; éxito: 1d4 extra a un dado de la siguiente prueba de todos).",
+   "combatientes": [
+    {
+     "id": "n1eidc2g",
+     "fuente": "Bestia hemalúrgica (Legado)",
+     "nombre": "Bestia hemalúrgica",
+     "rol": "Jefe",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 40,
+      "max": 40
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      29,
+      43
+     ],
+     "atributos": {
+      "fue": 3,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cw1rhsip",
+   "nombre": "Cap. 1 · C11 El Crisol: bestia hemalúrgica [6 jugadores]",
+   "jugadores": 6,
+   "nivel": 1,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 6 JUGADORES: combate climático, no se añaden adversarios; se escala la salud de Bestia hemalúrgica (rango de su ficha 29-43): 43 PS (4 jugadores = libro, 6 = máxima, 5 = intermedia).\nComposición: 1 Bestia hemalúrgica (igual para 4, 5 y 6 jugadores).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nEcos de lo perdido, C10-C11. La bestia merodea por el vestíbulo; en la 2.ª ronda de un combate en el almacén (C9) se lanza hacia el Crisol y arranca la puerta de acero. Ataca a los prisioneros skaa de la celda.\nCampo de batalla: araña de luces (ataque a distancia a la cadena CD 13; 3d6 golpe y Distraído a quien esté debajo); mesas de acero (Prevenirse 1 para esconderse: no puede marcarlo); el clavo del cuello se puede extraer (ver ficha).\nLucha hasta la muerte; el clavo de nicrosil queda inerte. Momento de legado del Veterano: Tuss pide ayuda a gritos y atrae a la bestia (Disciplina CD 11; éxito: 1d4 extra a un dado de la siguiente prueba de todos).",
+   "combatientes": [
+    {
+     "id": "txd9hj1l",
+     "fuente": "Bestia hemalúrgica (Legado)",
+     "nombre": "Bestia hemalúrgica",
+     "rol": "Jefe",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 43,
+      "max": 43
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      29,
+      43
+     ],
+     "atributos": {
+      "fue": 3,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cls3hvrh",
+   "nombre": "Cap. 1 · Lucha por el Clavo [4 jugadores]",
+   "jugadores": 4,
+   "nivel": 1,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 4 JUGADORES: combate con nombrados, no se añaden adversarios; se escala la salud de Silia y Caridus (rango de su ficha 18-26): 22 PS cada uno (4 jugadores = libro, 6 = máxima, 5 = intermedia).\nComposición: 1 Silia Buvidas, 1 Caridus Buvidas, 2 Soldado de guarnición (igual para 4, 5 y 6 jugadores).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nEcos de lo perdido. Puesto de control del canal: si el empeño fracasa llegan Silia y Caridus Buvidas con soldados (el libro pone 2). Si el Convicto fue visto por el soldado y el empeño fracasó, Silia y Caridus empiezan Resueltos.\nO: Enge (oculta) acciona el cabrestante. C: Enge queda al descubierto (Silia y Caridus: «¡Deberías estar muerta!»).\nFinal: termina cuando caen ambos soldados o cualquiera de los mellizos; los supervivientes se retiran. Saber CD 8 identifica la insignia de la casa Buvidas. Los PJs pasan al nivel 2 al sortear el puesto de control.",
+   "combatientes": [
+    {
+     "id": "n3vkgzci",
+     "fuente": "Silia Buvidas",
+     "nombre": "Silia Buvidas",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 22,
+      "max": 22
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 1,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      18,
+      26
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "rxwch60c",
+     "fuente": "Caridus Buvidas",
+     "nombre": "Caridus Buvidas",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 22,
+      "max": 22
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 1,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      18,
+      26
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "nqcgnuen",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "o9xyvfba",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c9ew6yib",
+   "nombre": "Cap. 1 · Lucha por el Clavo [5 jugadores]",
+   "jugadores": 5,
+   "nivel": 1,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 5 JUGADORES: combate con nombrados, no se añaden adversarios; se escala la salud de Silia y Caridus (rango de su ficha 18-26): 24 PS cada uno (4 jugadores = libro, 6 = máxima, 5 = intermedia).\nComposición: 1 Silia Buvidas, 1 Caridus Buvidas, 2 Soldado de guarnición (igual para 4, 5 y 6 jugadores).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nEcos de lo perdido. Puesto de control del canal: si el empeño fracasa llegan Silia y Caridus Buvidas con soldados (el libro pone 2). Si el Convicto fue visto por el soldado y el empeño fracasó, Silia y Caridus empiezan Resueltos.\nO: Enge (oculta) acciona el cabrestante. C: Enge queda al descubierto (Silia y Caridus: «¡Deberías estar muerta!»).\nFinal: termina cuando caen ambos soldados o cualquiera de los mellizos; los supervivientes se retiran. Saber CD 8 identifica la insignia de la casa Buvidas. Los PJs pasan al nivel 2 al sortear el puesto de control.",
+   "combatientes": [
+    {
+     "id": "lz8awr0l",
+     "fuente": "Silia Buvidas",
+     "nombre": "Silia Buvidas",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 24,
+      "max": 24
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 1,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      18,
+      26
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "cct060z2",
+     "fuente": "Caridus Buvidas",
+     "nombre": "Caridus Buvidas",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 24,
+      "max": 24
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 1,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      18,
+      26
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "kmy65p25",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "saxnacde",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cpx550tm",
+   "nombre": "Cap. 1 · Lucha por el Clavo [6 jugadores]",
+   "jugadores": 6,
+   "nivel": 1,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 6 JUGADORES: combate con nombrados, no se añaden adversarios; se escala la salud de Silia y Caridus (rango de su ficha 18-26): 26 PS cada uno (4 jugadores = libro, 6 = máxima, 5 = intermedia).\nComposición: 1 Silia Buvidas, 1 Caridus Buvidas, 2 Soldado de guarnición (igual para 4, 5 y 6 jugadores).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nEcos de lo perdido. Puesto de control del canal: si el empeño fracasa llegan Silia y Caridus Buvidas con soldados (el libro pone 2). Si el Convicto fue visto por el soldado y el empeño fracasó, Silia y Caridus empiezan Resueltos.\nO: Enge (oculta) acciona el cabrestante. C: Enge queda al descubierto (Silia y Caridus: «¡Deberías estar muerta!»).\nFinal: termina cuando caen ambos soldados o cualquiera de los mellizos; los supervivientes se retiran. Saber CD 8 identifica la insignia de la casa Buvidas. Los PJs pasan al nivel 2 al sortear el puesto de control.",
+   "combatientes": [
+    {
+     "id": "csslda8e",
+     "fuente": "Silia Buvidas",
+     "nombre": "Silia Buvidas",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 1,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      18,
+      26
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "yw7jakyh",
+     "fuente": "Caridus Buvidas",
+     "nombre": "Caridus Buvidas",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 1,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      18,
+      26
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "f1m7rioj",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "up365nul",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cs6h4bkz",
+   "nombre": "Cap. 2 · Mataneblinos en el laberinto de setos [4 jugadores]",
+   "jugadores": 4,
+   "nivel": 2,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 4 JUGADORES: sin escalar, el combate real es contra la patrulla de 4 mataneblinos del exterior; los 8 del laberinto son el entorno (amenaza 8).\nComposición: 8 Mataneblino (igual para 4, 5 y 6 jugadores).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nTras las máscaras doradas. Los mataneblinos empiezan en las «×» del mapa 2.1 (el libro pone 8 y pide derrotar a 6); solo se mueven si detectan a los PJs o son detectados. El grupo entra por el punto 1 (ventana) o el 2 (pasaje secreto); el carruaje espera en la salida este.\nCampo de batalla: setos (Def. física 10; 5 de daño abre una vista, 10 destruye una sección de 1,5 m; los mataneblinos no los dañan salvo con C); ocultarse con ventaja; Percepción CD 12 (1) localiza mataneblinos aunque estén tras un seto; fuente central como cobertura. Si un PJ sale por otro lado que no sea la salida este lo atacan 4 mataneblinos que patrullan fuera.\nO: dos amantes (plebeyos) atrapados (Intimidación o Liderazgo CD 9). C: un mataneblino atraviesa un seto.\nFinal: al derrotar a 6 mataneblinos o al llegar al carruaje. Luego Delina irrumpe y empieza la persecución «Acortar distancias» (ver su encuentro). Los PJs pasan al nivel 3 tras huir de Delina.",
+   "combatientes": [
+    {
+     "id": "tqcb5bzu",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "jxuxog1j",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "yfbwqwx3",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "cyhrgaqz",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 4",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "fi2t8s9f",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 5",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "zzio6nqh",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 6",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "anu527qx",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 7",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "gd527eio",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 8",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "chxa63a8",
+   "nombre": "Cap. 2 · Mataneblinos en el laberinto de setos [5 jugadores]",
+   "jugadores": 5,
+   "nivel": 2,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 5 JUGADORES: sin escalar, el combate real es contra la patrulla de 4 mataneblinos del exterior; los 8 del laberinto son el entorno (amenaza 8).\nComposición: 8 Mataneblino (igual para 4, 5 y 6 jugadores).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nTras las máscaras doradas. Los mataneblinos empiezan en las «×» del mapa 2.1 (el libro pone 8 y pide derrotar a 6); solo se mueven si detectan a los PJs o son detectados. El grupo entra por el punto 1 (ventana) o el 2 (pasaje secreto); el carruaje espera en la salida este.\nCampo de batalla: setos (Def. física 10; 5 de daño abre una vista, 10 destruye una sección de 1,5 m; los mataneblinos no los dañan salvo con C); ocultarse con ventaja; Percepción CD 12 (1) localiza mataneblinos aunque estén tras un seto; fuente central como cobertura. Si un PJ sale por otro lado que no sea la salida este lo atacan 4 mataneblinos que patrullan fuera.\nO: dos amantes (plebeyos) atrapados (Intimidación o Liderazgo CD 9). C: un mataneblino atraviesa un seto.\nFinal: al derrotar a 6 mataneblinos o al llegar al carruaje. Luego Delina irrumpe y empieza la persecución «Acortar distancias» (ver su encuentro). Los PJs pasan al nivel 3 tras huir de Delina.",
+   "combatientes": [
+    {
+     "id": "c9t2l64m",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "cbmpj7h5",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "n2gm2ffs",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "xsyp5uy1",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 4",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "osk0ws4u",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 5",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "jy85vkft",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 6",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "iuhtsva8",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 7",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "q7t9edg7",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 8",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cova8wti",
+   "nombre": "Cap. 2 · Mataneblinos en el laberinto de setos [6 jugadores]",
+   "jugadores": 6,
+   "nivel": 2,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 6 JUGADORES: sin escalar, el combate real es contra la patrulla de 4 mataneblinos del exterior; los 8 del laberinto son el entorno (amenaza 8).\nComposición: 8 Mataneblino (igual para 4, 5 y 6 jugadores).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nTras las máscaras doradas. Los mataneblinos empiezan en las «×» del mapa 2.1 (el libro pone 8 y pide derrotar a 6); solo se mueven si detectan a los PJs o son detectados. El grupo entra por el punto 1 (ventana) o el 2 (pasaje secreto); el carruaje espera en la salida este.\nCampo de batalla: setos (Def. física 10; 5 de daño abre una vista, 10 destruye una sección de 1,5 m; los mataneblinos no los dañan salvo con C); ocultarse con ventaja; Percepción CD 12 (1) localiza mataneblinos aunque estén tras un seto; fuente central como cobertura. Si un PJ sale por otro lado que no sea la salida este lo atacan 4 mataneblinos que patrullan fuera.\nO: dos amantes (plebeyos) atrapados (Intimidación o Liderazgo CD 9). C: un mataneblino atraviesa un seto.\nFinal: al derrotar a 6 mataneblinos o al llegar al carruaje. Luego Delina irrumpe y empieza la persecución «Acortar distancias» (ver su encuentro). Los PJs pasan al nivel 3 tras huir de Delina.",
+   "combatientes": [
+    {
+     "id": "oo87jrep",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "psdpbjz9",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "bgiylmwd",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "xu4wzz5a",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 4",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "uotfhwwt",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 5",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "rw4i036l",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 6",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "k6h2hd6e",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 7",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "cjd3p2eo",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 8",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cg9vz8qt",
+   "nombre": "Cap. 2 · Duelo ritual (crisol) [vs Caridus]",
+   "jugadores": 1,
+   "nivel": 2,
+   "ajuste": 0,
+   "notas": "VERSIÓN: te desafía Caridus Buvidas.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nTras las máscaras doradas, «Socializar». Uno de los hermanos Buvidas o, si ninguno sobrevivió, Yestal Haught (consejero) desafía a un PJ a «un crisol», duelo ritual de la Élite Dorada, y los demás observan. Solo se permiten ataques que inflijan daño por golpe.\nApuesta de 50 arquillas. El PNJ se rinde al reducirse su salud a la mitad. El PJ pierde si se rinde («El fuego revela, cedo ante alguien más digno») o llega a 0 de salud. Es 1 contra 1, por eso el encuentro está configurado con 1 jugador.",
+   "combatientes": [
+    {
+     "id": "cvo0un79",
+     "fuente": "Caridus Buvidas",
+     "nombre": "Caridus Buvidas",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 22,
+      "max": 22
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 1,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      18,
+      26
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": true
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c7randtp",
+   "nombre": "Cap. 2 · Duelo ritual (crisol) [vs Silia]",
+   "jugadores": 1,
+   "nivel": 2,
+   "ajuste": 0,
+   "notas": "VERSIÓN: te desafía Silia Buvidas.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nTras las máscaras doradas, «Socializar». Uno de los hermanos Buvidas o, si ninguno sobrevivió, Yestal Haught (consejero) desafía a un PJ a «un crisol», duelo ritual de la Élite Dorada, y los demás observan. Solo se permiten ataques que inflijan daño por golpe.\nApuesta de 50 arquillas. El PNJ se rinde al reducirse su salud a la mitad. El PJ pierde si se rinde («El fuego revela, cedo ante alguien más digno») o llega a 0 de salud. Es 1 contra 1, por eso el encuentro está configurado con 1 jugador.",
+   "combatientes": [
+    {
+     "id": "cucd351r",
+     "fuente": "Silia Buvidas",
+     "nombre": "Silia Buvidas",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 22,
+      "max": 22
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 1,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      18,
+      26
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": true
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cj5narbe",
+   "nombre": "Cap. 2 · Duelo ritual (crisol) [vs Yestal Haught]",
+   "jugadores": 1,
+   "nivel": 2,
+   "ajuste": 0,
+   "notas": "VERSIÓN: te desafía Yestal Haught.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nTras las máscaras doradas, «Socializar». Uno de los hermanos Buvidas o, si ninguno sobrevivió, Yestal Haught (consejero) desafía a un PJ a «un crisol», duelo ritual de la Élite Dorada, y los demás observan. Solo se permiten ataques que inflijan daño por golpe.\nApuesta de 50 arquillas. El PNJ se rinde al reducirse su salud a la mitad. El PJ pierde si se rinde («El fuego revela, cedo ante alguien más digno») o llega a 0 de salud. Es 1 contra 1, por eso el encuentro está configurado con 1 jugador.",
+   "combatientes": [
+    {
+     "id": "crzr2dn5",
+     "fuente": "Consejero (Legado)",
+     "nombre": "Yestal Haught",
+     "rol": "Secuaz",
+     "rango": 2,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      16,
+      24
+     ],
+     "atributos": {
+      "fue": 1,
+      "vel": 2,
+      "int": 4,
+      "vol": 2,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cndc66u1",
+   "nombre": "Cap. 3 · Intento de secuestro [4 jugadores]",
+   "jugadores": 4,
+   "nivel": 3,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 4 JUGADORES (el libro está pensado para 4: amenaza 3; objetivo escalado 3; composición con amenaza 3).\nComposición: 2 Forajido, 1 Mataneblino de élite.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nMultitud y élite. La primera vez que los PJs salen de noche durante la investigación, forajidos exigen arquillas y viales (el libro pone 2, más una mataneblino de élite). Percepción CD 13 detecta además a las mataneblinos de élite ocultas en la bruma (acción adicional: 1 Daga de cristal, +5, 1,5 m, 1d4+5 laceración, ventaja si el objetivo no las ve; Veneno eficaz: Atletismo CD 14 o 2d8 vital y Aturdido 1 hora).\nAtacan a Bezryl (si está) o al primer sospechoso de ser alomante; si Bezryl es envenenada, juega un turno lento y usa Decantar salud. Los secuestradores luchan hasta que caen los dos primeros; entonces el tercero se retira.\nSi se somete a los secuestradores, Intimidación CD 14: «cazarrecompensas de brumosos» que entregan a las víctimas en la Fortaleza Haught.",
+   "combatientes": [
+    {
+     "id": "v2dum3nz",
+     "fuente": "Forajido (Legado)",
+     "nombre": "Forajido 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 11,
+      "max": 11
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      13
+     ],
+     "atributos": {
+      "fue": 0,
+      "vel": 2,
+      "int": 0,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "u1sygcdb",
+     "fuente": "Forajido (Legado)",
+     "nombre": "Forajido 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 11,
+      "max": 11
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      13
+     ],
+     "atributos": {
+      "fue": 0,
+      "vel": 2,
+      "int": 0,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "rw6rgegf",
+     "fuente": "Mataneblino de élite (Legado)",
+     "nombre": "Mataneblino de élite",
+     "rol": "Rival",
+     "rango": 2,
+     "amenazaManual": null,
+     "salud": {
+      "act": 47,
+      "max": 47
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      38,
+      56
+     ],
+     "atributos": {
+      "fue": 3,
+      "vel": 4,
+      "int": 3,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c8uxepsb",
+   "nombre": "Cap. 3 · Intento de secuestro [5 jugadores]",
+   "jugadores": 5,
+   "nivel": 3,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 5 JUGADORES (el libro está pensado para 4: amenaza 3; objetivo escalado 3.75; composición con amenaza 4).\nComposición: 2 Forajido, 1 Mataneblino de élite, 1 Mataneblino.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nMultitud y élite. La primera vez que los PJs salen de noche durante la investigación, forajidos exigen arquillas y viales (el libro pone 2, más una mataneblino de élite). Percepción CD 13 detecta además a las mataneblinos de élite ocultas en la bruma (acción adicional: 1 Daga de cristal, +5, 1,5 m, 1d4+5 laceración, ventaja si el objetivo no las ve; Veneno eficaz: Atletismo CD 14 o 2d8 vital y Aturdido 1 hora).\nAtacan a Bezryl (si está) o al primer sospechoso de ser alomante; si Bezryl es envenenada, juega un turno lento y usa Decantar salud. Los secuestradores luchan hasta que caen los dos primeros; entonces el tercero se retira.\nSi se somete a los secuestradores, Intimidación CD 14: «cazarrecompensas de brumosos» que entregan a las víctimas en la Fortaleza Haught.",
+   "combatientes": [
+    {
+     "id": "j7dc8q1l",
+     "fuente": "Forajido (Legado)",
+     "nombre": "Forajido 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 11,
+      "max": 11
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      13
+     ],
+     "atributos": {
+      "fue": 0,
+      "vel": 2,
+      "int": 0,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "opmhnwbh",
+     "fuente": "Forajido (Legado)",
+     "nombre": "Forajido 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 11,
+      "max": 11
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      13
+     ],
+     "atributos": {
+      "fue": 0,
+      "vel": 2,
+      "int": 0,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "nq0ohfsa",
+     "fuente": "Mataneblino de élite (Legado)",
+     "nombre": "Mataneblino de élite",
+     "rol": "Rival",
+     "rango": 2,
+     "amenazaManual": null,
+     "salud": {
+      "act": 47,
+      "max": 47
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      38,
+      56
+     ],
+     "atributos": {
+      "fue": 3,
+      "vel": 4,
+      "int": 3,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "c2z4wovs",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "ckum1md6",
+   "nombre": "Cap. 3 · Intento de secuestro [6 jugadores]",
+   "jugadores": 6,
+   "nivel": 3,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 6 JUGADORES (el libro está pensado para 4: amenaza 3; objetivo escalado 4.5; composición con amenaza 4).\nComposición: 2 Forajido, 1 Mataneblino de élite, 1 Mataneblino.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nMultitud y élite. La primera vez que los PJs salen de noche durante la investigación, forajidos exigen arquillas y viales (el libro pone 2, más una mataneblino de élite). Percepción CD 13 detecta además a las mataneblinos de élite ocultas en la bruma (acción adicional: 1 Daga de cristal, +5, 1,5 m, 1d4+5 laceración, ventaja si el objetivo no las ve; Veneno eficaz: Atletismo CD 14 o 2d8 vital y Aturdido 1 hora).\nAtacan a Bezryl (si está) o al primer sospechoso de ser alomante; si Bezryl es envenenada, juega un turno lento y usa Decantar salud. Los secuestradores luchan hasta que caen los dos primeros; entonces el tercero se retira.\nSi se somete a los secuestradores, Intimidación CD 14: «cazarrecompensas de brumosos» que entregan a las víctimas en la Fortaleza Haught.",
+   "combatientes": [
+    {
+     "id": "k2j6023o",
+     "fuente": "Forajido (Legado)",
+     "nombre": "Forajido 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 11,
+      "max": 11
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      13
+     ],
+     "atributos": {
+      "fue": 0,
+      "vel": 2,
+      "int": 0,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "k5z11o0c",
+     "fuente": "Forajido (Legado)",
+     "nombre": "Forajido 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 11,
+      "max": 11
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      13
+     ],
+     "atributos": {
+      "fue": 0,
+      "vel": 2,
+      "int": 0,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "kkd596bj",
+     "fuente": "Mataneblino de élite (Legado)",
+     "nombre": "Mataneblino de élite",
+     "rol": "Rival",
+     "rango": 2,
+     "amenazaManual": null,
+     "salud": {
+      "act": 47,
+      "max": 47
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      38,
+      56
+     ],
+     "atributos": {
+      "fue": 3,
+      "vel": 4,
+      "int": 3,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "vkhogcsr",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "citblgfl",
+   "nombre": "Cap. 3 · Un giro explosivo: rebeldes [4 jugadores]",
+   "jugadores": 4,
+   "nivel": 3,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 4 JUGADORES (el libro está pensado para 4: amenaza 3; objetivo escalado 3; composición con amenaza 3).\nComposición: 3 Rebelde.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nMultitud y élite, almacén de Construcciones Kandor. Es el empeño «Fuego y rescate»; este combate solo ocurre con los rebeldes encendidos (alomancia) que no se sometieron durante el empeño: luchan dos rondas y se rinden bruscamente. El libro pone 3 rebeldes. Desarmar: Atletismo CD 13; rendirse: Intimidación CD 14.\nMomento de legado del Convicto: reconoce a Preece; prueba social CD 12 y todos se rinden (si supera la CD en 5 o más, colaboran y el Convicto tiene ventaja en toda la escena).",
+   "combatientes": [
+    {
+     "id": "o542q4g2",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "pw2dkd3y",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "bvoq0xw3",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "co8rrj5n",
+   "nombre": "Cap. 3 · Un giro explosivo: rebeldes [5 jugadores]",
+   "jugadores": 5,
+   "nivel": 3,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 5 JUGADORES (el libro está pensado para 4: amenaza 3; objetivo escalado 3.75; composición con amenaza 4).\nComposición: 3 Rebelde, 1 Agitador.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nMultitud y élite, almacén de Construcciones Kandor. Es el empeño «Fuego y rescate»; este combate solo ocurre con los rebeldes encendidos (alomancia) que no se sometieron durante el empeño: luchan dos rondas y se rinden bruscamente. El libro pone 3 rebeldes. Desarmar: Atletismo CD 13; rendirse: Intimidación CD 14.\nMomento de legado del Convicto: reconoce a Preece; prueba social CD 12 y todos se rinden (si supera la CD en 5 o más, colaboran y el Convicto tiene ventaja en toda la escena).",
+   "combatientes": [
+    {
+     "id": "ccgibqp4",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "qikadxot",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "czlikc1o",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "jn84ah6q",
+     "fuente": "Agitador",
+     "nombre": "Agitador",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": true
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c5yiiy5i",
+   "nombre": "Cap. 3 · Un giro explosivo: rebeldes [6 jugadores]",
+   "jugadores": 6,
+   "nivel": 3,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 6 JUGADORES (el libro está pensado para 4: amenaza 3; objetivo escalado 4.5; composición con amenaza 4).\nComposición: 3 Rebelde, 1 Agitador.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nMultitud y élite, almacén de Construcciones Kandor. Es el empeño «Fuego y rescate»; este combate solo ocurre con los rebeldes encendidos (alomancia) que no se sometieron durante el empeño: luchan dos rondas y se rinden bruscamente. El libro pone 3 rebeldes. Desarmar: Atletismo CD 13; rendirse: Intimidación CD 14.\nMomento de legado del Convicto: reconoce a Preece; prueba social CD 12 y todos se rinden (si supera la CD en 5 o más, colaboran y el Convicto tiene ventaja en toda la escena).",
+   "combatientes": [
+    {
+     "id": "wocw2jdl",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "n1eidc2g",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "rgs91pno",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "ga59v9ag",
+     "fuente": "Agitador",
+     "nombre": "Agitador",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": true
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cgk5rcjj",
+   "nombre": "Cap. 3 · Agitadores: combate entre la multitud [4 jugadores]",
+   "jugadores": 4,
+   "nivel": 4,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 4 JUGADORES (el libro está pensado para 4: amenaza 5; objetivo escalado 5; composición con amenaza 5).\nComposición: 2 Rebelde, 3 Agitador.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nMultitud y élite, mapa 3.1. Se activa si el empeño de la manifestación falla en alguno de los dos objetivos. Empieza con los mercenarios (rebeldes) que cargan, mientras los agitadores mantienen el pánico ocultos entre la multitud: coloca 3 fichas de plebeyo por agitador oculto (una es el agitador). Si se detuvo a los encendedores de Duvall, un agitador ya está identificado. Perspicacia CD 12 (1) o Quemar bronce (1) desenmascara a un agitador, que entonces se une al combate.\nAparte, el mataneblino de élite que atacó a Bezryl se retira; solo pelea si lo atacan (no cuenta en la amenaza de esta versión; usa «Mataneblino de élite (Legado)». Si no llegó a atacar, conserva la Daga de cristal: 1 Acometida +5, 1,5 m, 1d4+5 laceración; Veneno eficaz CD 14, 2d8 vital y Aturdido 1 h). Lucha hasta quedar a la mitad de salud; después huye.\nSi no se ayudó a Bezryl, una daga la alcanza (1d4 laceración + 2d8 vital, Aturdida 1 h). Si no se detuvo a los encendedores, la multitud está encendida: cada PJ gasta 1 de concentración antes de empezar o huye la mitad de su movimiento; calle abarrotada (terreno difícil) y peligrosa (fin de turno: Agilidad o Atletismo CD 12 o 1d4 golpe). Bezryl lucha con los PJs y se mantiene a salvo con Decantar salud.\nFinal: si se somete a los agitadores el resto huye o se rinde; Intimidación CD 10 los hace hablar. El libro pone 2 mercenarios y 3 agitadores.",
+   "combatientes": [
+    {
+     "id": "txd9hj1l",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "jnchwanw",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "e8ru5gf6",
+     "fuente": "Agitador",
+     "nombre": "Agitador 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "tig07h85",
+     "fuente": "Agitador",
+     "nombre": "Agitador 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "tcbdsj0o",
+     "fuente": "Agitador",
+     "nombre": "Agitador 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": true
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c6ajawo3",
+   "nombre": "Cap. 3 · Agitadores: combate entre la multitud [5 jugadores]",
+   "jugadores": 5,
+   "nivel": 4,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 5 JUGADORES (el libro está pensado para 4: amenaza 5; objetivo escalado 6.25; composición con amenaza 6).\nComposición: 2 Rebelde, 3 Agitador, 1 Mataneblino.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nMultitud y élite, mapa 3.1. Se activa si el empeño de la manifestación falla en alguno de los dos objetivos. Empieza con los mercenarios (rebeldes) que cargan, mientras los agitadores mantienen el pánico ocultos entre la multitud: coloca 3 fichas de plebeyo por agitador oculto (una es el agitador). Si se detuvo a los encendedores de Duvall, un agitador ya está identificado. Perspicacia CD 12 (1) o Quemar bronce (1) desenmascara a un agitador, que entonces se une al combate.\nAparte, el mataneblino de élite que atacó a Bezryl se retira; solo pelea si lo atacan (no cuenta en la amenaza de esta versión; usa «Mataneblino de élite (Legado)». Si no llegó a atacar, conserva la Daga de cristal: 1 Acometida +5, 1,5 m, 1d4+5 laceración; Veneno eficaz CD 14, 2d8 vital y Aturdido 1 h). Lucha hasta quedar a la mitad de salud; después huye.\nSi no se ayudó a Bezryl, una daga la alcanza (1d4 laceración + 2d8 vital, Aturdida 1 h). Si no se detuvo a los encendedores, la multitud está encendida: cada PJ gasta 1 de concentración antes de empezar o huye la mitad de su movimiento; calle abarrotada (terreno difícil) y peligrosa (fin de turno: Agilidad o Atletismo CD 12 o 1d4 golpe). Bezryl lucha con los PJs y se mantiene a salvo con Decantar salud.\nFinal: si se somete a los agitadores el resto huye o se rinde; Intimidación CD 10 los hace hablar. El libro pone 2 mercenarios y 3 agitadores.",
+   "combatientes": [
+    {
+     "id": "n3vkgzci",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "rxwch60c",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "nqcgnuen",
+     "fuente": "Agitador",
+     "nombre": "Agitador 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "o9xyvfba",
+     "fuente": "Agitador",
+     "nombre": "Agitador 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "lz8awr0l",
+     "fuente": "Agitador",
+     "nombre": "Agitador 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "cct060z2",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cnjekyc3",
+   "nombre": "Cap. 3 · Agitadores: combate entre la multitud [6 jugadores]",
+   "jugadores": 6,
+   "nivel": 4,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 6 JUGADORES (el libro está pensado para 4: amenaza 5; objetivo escalado 7.5; composición con amenaza 7).\nComposición: 2 Rebelde, 3 Agitador, 2 Mataneblino.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nMultitud y élite, mapa 3.1. Se activa si el empeño de la manifestación falla en alguno de los dos objetivos. Empieza con los mercenarios (rebeldes) que cargan, mientras los agitadores mantienen el pánico ocultos entre la multitud: coloca 3 fichas de plebeyo por agitador oculto (una es el agitador). Si se detuvo a los encendedores de Duvall, un agitador ya está identificado. Perspicacia CD 12 (1) o Quemar bronce (1) desenmascara a un agitador, que entonces se une al combate.\nAparte, el mataneblino de élite que atacó a Bezryl se retira; solo pelea si lo atacan (no cuenta en la amenaza de esta versión; usa «Mataneblino de élite (Legado)». Si no llegó a atacar, conserva la Daga de cristal: 1 Acometida +5, 1,5 m, 1d4+5 laceración; Veneno eficaz CD 14, 2d8 vital y Aturdido 1 h). Lucha hasta quedar a la mitad de salud; después huye.\nSi no se ayudó a Bezryl, una daga la alcanza (1d4 laceración + 2d8 vital, Aturdida 1 h). Si no se detuvo a los encendedores, la multitud está encendida: cada PJ gasta 1 de concentración antes de empezar o huye la mitad de su movimiento; calle abarrotada (terreno difícil) y peligrosa (fin de turno: Agilidad o Atletismo CD 12 o 1d4 golpe). Bezryl lucha con los PJs y se mantiene a salvo con Decantar salud.\nFinal: si se somete a los agitadores el resto huye o se rinde; Intimidación CD 10 los hace hablar. El libro pone 2 mercenarios y 3 agitadores.",
+   "combatientes": [
+    {
+     "id": "kmy65p25",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "saxnacde",
+     "fuente": "Rebelde (Legado)",
+     "nombre": "Rebelde 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "i50n0up4",
+     "fuente": "Agitador",
+     "nombre": "Agitador 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "csslda8e",
+     "fuente": "Agitador",
+     "nombre": "Agitador 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "yw7jakyh",
+     "fuente": "Agitador",
+     "nombre": "Agitador 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 20,
+      "max": 20
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 5,
+      "max": 5
+     },
+     "desvio": 0,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      15,
+      25
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 2
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "f1m7rioj",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "up365nul",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cb4oz0vp",
+   "nombre": "Cap. 3 · Enfrentamiento con Duvall [4 jugadores]",
+   "jugadores": 4,
+   "nivel": 4,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 4 JUGADORES: combate climático, no se añaden adversarios; se escala la salud de Duvall (rango de su ficha 53-88): 70 PS (4 jugadores = libro, 6 = máxima, 5 = intermedia).\nComposición: 1 Duvall Haught, 4 Soldado de guarnición (igual para 4, 5 y 6 jugadores).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nMultitud y élite, mapa 3.2 (biblioteca y laboratorio de Duvall). Duvall y sus guardias (soldados de guarnición; el libro pone 4). Los guardias cargan mientras Duvall lanza ráfagas de monedas a distancia y usa Empujón de acero para arrojar a los PJs al pozo.\nCampo de batalla: pozo de disolución en el centro (6 m de profundidad, 4 m de diámetro; caer: 1d6 golpe; salir: Atletismo CD 12 o queda Tumbado). El espectro de la bruma cautivo digiere lentamente los cuerpos: quien termina su turno en el pozo sufre 1d6 vital (Necrofagia); fuera del pozo no sufre Visión perturbadora ni Aura inquietante.\nDuvall lucha hasta la muerte; derrotado, los guardias supervivientes se rinden. Lleva 200 arquillas, las llaves de los grilletes de Fadwal y el anillo de Fadwal; su clavo hemalúrgico de bronce se puede extraer (meta «Aprender sobre hemalurgia», 2 hitos). Los PJs alcanzan el nivel 5 tras resolver lo de Construcciones Kandor.",
+   "combatientes": [
+    {
+     "id": "n76ifwyl",
+     "fuente": "Duvall Haught",
+     "nombre": "Duvall Haught",
+     "rol": "Jefe",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 70,
+      "max": 70
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 6,
+      "max": 6
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      53,
+      88
+     ],
+     "atributos": {
+      "fue": 3,
+      "vel": 4,
+      "int": 4,
+      "vol": 2,
+      "dis": 1,
+      "pre": 4
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "mpk8clex",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "y761ar2l",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "gghizvig",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 3",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "io67w7t4",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 4",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c636x7nf",
+   "nombre": "Cap. 3 · Enfrentamiento con Duvall [5 jugadores]",
+   "jugadores": 5,
+   "nivel": 4,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 5 JUGADORES: combate climático, no se añaden adversarios; se escala la salud de Duvall (rango de su ficha 53-88): 79 PS (4 jugadores = libro, 6 = máxima, 5 = intermedia).\nComposición: 1 Duvall Haught, 4 Soldado de guarnición (igual para 4, 5 y 6 jugadores).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nMultitud y élite, mapa 3.2 (biblioteca y laboratorio de Duvall). Duvall y sus guardias (soldados de guarnición; el libro pone 4). Los guardias cargan mientras Duvall lanza ráfagas de monedas a distancia y usa Empujón de acero para arrojar a los PJs al pozo.\nCampo de batalla: pozo de disolución en el centro (6 m de profundidad, 4 m de diámetro; caer: 1d6 golpe; salir: Atletismo CD 12 o queda Tumbado). El espectro de la bruma cautivo digiere lentamente los cuerpos: quien termina su turno en el pozo sufre 1d6 vital (Necrofagia); fuera del pozo no sufre Visión perturbadora ni Aura inquietante.\nDuvall lucha hasta la muerte; derrotado, los guardias supervivientes se rinden. Lleva 200 arquillas, las llaves de los grilletes de Fadwal y el anillo de Fadwal; su clavo hemalúrgico de bronce se puede extraer (meta «Aprender sobre hemalurgia», 2 hitos). Los PJs alcanzan el nivel 5 tras resolver lo de Construcciones Kandor.",
+   "combatientes": [
+    {
+     "id": "p56mt8rh",
+     "fuente": "Duvall Haught",
+     "nombre": "Duvall Haught",
+     "rol": "Jefe",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 79,
+      "max": 79
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 6,
+      "max": 6
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      53,
+      88
+     ],
+     "atributos": {
+      "fue": 3,
+      "vel": 4,
+      "int": 4,
+      "vol": 2,
+      "dis": 1,
+      "pre": 4
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "bhe29212",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "bxiarn2z",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "t5o1f63e",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 3",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "x9jtf1a3",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 4",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c0dxtvub",
+   "nombre": "Cap. 3 · Enfrentamiento con Duvall [6 jugadores]",
+   "jugadores": 6,
+   "nivel": 4,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 6 JUGADORES: combate climático, no se añaden adversarios; se escala la salud de Duvall (rango de su ficha 53-88): 88 PS (4 jugadores = libro, 6 = máxima, 5 = intermedia).\nComposición: 1 Duvall Haught, 4 Soldado de guarnición (igual para 4, 5 y 6 jugadores).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nMultitud y élite, mapa 3.2 (biblioteca y laboratorio de Duvall). Duvall y sus guardias (soldados de guarnición; el libro pone 4). Los guardias cargan mientras Duvall lanza ráfagas de monedas a distancia y usa Empujón de acero para arrojar a los PJs al pozo.\nCampo de batalla: pozo de disolución en el centro (6 m de profundidad, 4 m de diámetro; caer: 1d6 golpe; salir: Atletismo CD 12 o queda Tumbado). El espectro de la bruma cautivo digiere lentamente los cuerpos: quien termina su turno en el pozo sufre 1d6 vital (Necrofagia); fuera del pozo no sufre Visión perturbadora ni Aura inquietante.\nDuvall lucha hasta la muerte; derrotado, los guardias supervivientes se rinden. Lleva 200 arquillas, las llaves de los grilletes de Fadwal y el anillo de Fadwal; su clavo hemalúrgico de bronce se puede extraer (meta «Aprender sobre hemalurgia», 2 hitos). Los PJs alcanzan el nivel 5 tras resolver lo de Construcciones Kandor.",
+   "combatientes": [
+    {
+     "id": "xv4k2p7d",
+     "fuente": "Duvall Haught",
+     "nombre": "Duvall Haught",
+     "rol": "Jefe",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 88,
+      "max": 88
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 6,
+      "max": 6
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      53,
+      88
+     ],
+     "atributos": {
+      "fue": 3,
+      "vel": 4,
+      "int": 4,
+      "vol": 2,
+      "dis": 1,
+      "pre": 4
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "ohtsf3ll",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "cu9yccfy",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "vq83xanz",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 3",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "hke144z6",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 4",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c5a3ggh5",
+   "nombre": "Cap. 4 · Escaramuza por los suministros [4 jugadores]",
+   "jugadores": 4,
+   "nivel": 5,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 4 JUGADORES (el libro está pensado para 4: amenaza 3; objetivo escalado 3; composición con amenaza 3).\nComposición: 3 Mataneblino.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nLa cripta de la eternidad, mapa 4.1. Solo si fracasa el empeño del campamento de Straff (el libro pone 3 mataneblinos). Hay cinco cajas de 50 kg cerca; cada caja obtenida suma 1 a los materiales del grupo (si vencen, se llevan las cinco). Pueden huir con las que carguen.\n",
+   "combatientes": [
+    {
+     "id": "mbqzdb9p",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "yc7psx13",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "mr7w0wl2",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cvcmoxx6",
+   "nombre": "Cap. 4 · Escaramuza por los suministros [5 jugadores]",
+   "jugadores": 5,
+   "nivel": 5,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 5 JUGADORES (el libro está pensado para 4: amenaza 3; objetivo escalado 3.75; composición con amenaza 3.5).\nComposición: 3 Mataneblino, 1 Soldado de guarnición.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nLa cripta de la eternidad, mapa 4.1. Solo si fracasa el empeño del campamento de Straff (el libro pone 3 mataneblinos). Hay cinco cajas de 50 kg cerca; cada caja obtenida suma 1 a los materiales del grupo (si vencen, se llevan las cinco). Pueden huir con las que carguen.\n",
+   "combatientes": [
+    {
+     "id": "hxvalmxd",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "mhlkdzjt",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "jtmsfz9s",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "wz7uax1e",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "co9t71n3",
+   "nombre": "Cap. 4 · Escaramuza por los suministros [6 jugadores]",
+   "jugadores": 6,
+   "nivel": 5,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 6 JUGADORES (el libro está pensado para 4: amenaza 3; objetivo escalado 4.5; composición con amenaza 4.5).\nComposición: 3 Mataneblino, 3 Soldado de guarnición.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nLa cripta de la eternidad, mapa 4.1. Solo si fracasa el empeño del campamento de Straff (el libro pone 3 mataneblinos). Hay cinco cajas de 50 kg cerca; cada caja obtenida suma 1 a los materiales del grupo (si vencen, se llevan las cinco). Pueden huir con las que carguen.\n",
+   "combatientes": [
+    {
+     "id": "puzl7nqe",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "xe6tuuj6",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "kve3k6iu",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "fgtcbg97",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "ve146wx1",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "fhqfnugs",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 3",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cvg9hmpv",
+   "nombre": "Cap. 4 · Escaramuza por los suministros con Zane [4 jugadores]",
+   "jugadores": 4,
+   "nivel": 5,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 4 JUGADORES (el libro está pensado para 4: amenaza 3; objetivo escalado 3; composición con amenaza 3).\nComposición: 3 Mataneblino, 1 Asesino nacido de la bruma.\nZane: salud escalada con el grupo dentro del rango de su ficha (152-228): 190 PS (4 jugadores = libro, 6 = máxima, 5 = intermedia).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nLa cripta de la eternidad, mapa 4.1. Solo si fracasa el empeño del campamento de Straff (el libro pone 3 mataneblinos). Hay cinco cajas de 50 kg cerca; cada caja obtenida suma 1 a los materiales del grupo (si vencen, se llevan las cinco). Pueden huir con las que carguen.\nSi el grupo atrajo la atención de Zane, se une a los mataneblinos con la ficha del asesino nacido de la bruma, pero evita Quemar atium (escasez de metal). Al inicio de la 2.ª ronda, o cuando mueran todos los mataneblinos, una voz le habla en su mente y se marcha desapareciendo entre las brumas.\nZane figura con la amenaza a 0 porque solo dura una ronda y no está pensado para derrotarlo; un jefe de rango 3 contra un grupo de rango 1 valdría 16.",
+   "combatientes": [
+    {
+     "id": "ii7b2z2o",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "pvqowy11",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "p6q6y3ee",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "qlspa6kw",
+     "fuente": "Asesino nacido de la bruma (Legado)",
+     "nombre": "Asesino nacido de la bruma",
+     "rol": "Jefe",
+     "rango": 3,
+     "amenazaManual": 0,
+     "salud": {
+      "act": 190,
+      "max": 190
+     },
+     "concentracion": {
+      "act": 8,
+      "max": 8
+     },
+     "investidura": {
+      "act": 8,
+      "max": 8
+     },
+     "desvio": 0,
+     "movimiento": "12 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      152,
+      228
+     ],
+     "atributos": {
+      "fue": 3,
+      "vel": 5,
+      "int": 3,
+      "vol": 4,
+      "dis": 3,
+      "pre": 4
+     },
+     "artesPrevios": true
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cj119dha",
+   "nombre": "Cap. 4 · Escaramuza por los suministros con Zane [5 jugadores]",
+   "jugadores": 5,
+   "nivel": 5,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 5 JUGADORES (el libro está pensado para 4: amenaza 3; objetivo escalado 3.75; composición con amenaza 3.5).\nComposición: 3 Mataneblino, 1 Asesino nacido de la bruma, 1 Soldado de guarnición.\nZane: salud escalada con el grupo dentro del rango de su ficha (152-228): 209 PS (4 jugadores = libro, 6 = máxima, 5 = intermedia).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nLa cripta de la eternidad, mapa 4.1. Solo si fracasa el empeño del campamento de Straff (el libro pone 3 mataneblinos). Hay cinco cajas de 50 kg cerca; cada caja obtenida suma 1 a los materiales del grupo (si vencen, se llevan las cinco). Pueden huir con las que carguen.\nSi el grupo atrajo la atención de Zane, se une a los mataneblinos con la ficha del asesino nacido de la bruma, pero evita Quemar atium (escasez de metal). Al inicio de la 2.ª ronda, o cuando mueran todos los mataneblinos, una voz le habla en su mente y se marcha desapareciendo entre las brumas.\nZane figura con la amenaza a 0 porque solo dura una ronda y no está pensado para derrotarlo; un jefe de rango 3 contra un grupo de rango 1 valdría 16.",
+   "combatientes": [
+    {
+     "id": "n0v1kvce",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "oi59rd6t",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "voic68x5",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "nufxpecs",
+     "fuente": "Asesino nacido de la bruma (Legado)",
+     "nombre": "Asesino nacido de la bruma",
+     "rol": "Jefe",
+     "rango": 3,
+     "amenazaManual": 0,
+     "salud": {
+      "act": 209,
+      "max": 209
+     },
+     "concentracion": {
+      "act": 8,
+      "max": 8
+     },
+     "investidura": {
+      "act": 8,
+      "max": 8
+     },
+     "desvio": 0,
+     "movimiento": "12 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      152,
+      228
+     ],
+     "atributos": {
+      "fue": 3,
+      "vel": 5,
+      "int": 3,
+      "vol": 4,
+      "dis": 3,
+      "pre": 4
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "eet8aikl",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cf0iipho",
+   "nombre": "Cap. 4 · Escaramuza por los suministros con Zane [6 jugadores]",
+   "jugadores": 6,
+   "nivel": 5,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 6 JUGADORES (el libro está pensado para 4: amenaza 3; objetivo escalado 4.5; composición con amenaza 4.5).\nComposición: 3 Mataneblino, 1 Asesino nacido de la bruma, 3 Soldado de guarnición.\nZane: salud escalada con el grupo dentro del rango de su ficha (152-228): 228 PS (4 jugadores = libro, 6 = máxima, 5 = intermedia).\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nLa cripta de la eternidad, mapa 4.1. Solo si fracasa el empeño del campamento de Straff (el libro pone 3 mataneblinos). Hay cinco cajas de 50 kg cerca; cada caja obtenida suma 1 a los materiales del grupo (si vencen, se llevan las cinco). Pueden huir con las que carguen.\nSi el grupo atrajo la atención de Zane, se une a los mataneblinos con la ficha del asesino nacido de la bruma, pero evita Quemar atium (escasez de metal). Al inicio de la 2.ª ronda, o cuando mueran todos los mataneblinos, una voz le habla en su mente y se marcha desapareciendo entre las brumas.\nZane figura con la amenaza a 0 porque solo dura una ronda y no está pensado para derrotarlo; un jefe de rango 3 contra un grupo de rango 1 valdría 16.",
+   "combatientes": [
+    {
+     "id": "cpqtfyil",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 1",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "o6lr79rh",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 2",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "j4ycl46a",
+     "fuente": "Mataneblino (Legado)",
+     "nombre": "Mataneblino 3",
+     "rol": "Rival",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 26,
+      "max": 26
+     },
+     "concentracion": {
+      "act": 4,
+      "max": 4
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      21,
+      31
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 3,
+      "int": 1,
+      "vol": 2,
+      "dis": 3,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "u59hwg5b",
+     "fuente": "Asesino nacido de la bruma (Legado)",
+     "nombre": "Asesino nacido de la bruma",
+     "rol": "Jefe",
+     "rango": 3,
+     "amenazaManual": 0,
+     "salud": {
+      "act": 228,
+      "max": 228
+     },
+     "concentracion": {
+      "act": 8,
+      "max": 8
+     },
+     "investidura": {
+      "act": 8,
+      "max": 8
+     },
+     "desvio": 0,
+     "movimiento": "12 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      152,
+      228
+     ],
+     "atributos": {
+      "fue": 3,
+      "vel": 5,
+      "int": 3,
+      "vol": 4,
+      "dis": 3,
+      "pre": 4
+     },
+     "artesPrevios": true
+    },
+    {
+     "id": "dl38jp5m",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "yqcilzhg",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "hskj2ses",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 3",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c9lkc8cr",
+   "nombre": "Cap. 4 · Fortaleza Hasting: guardias de Cett [4 jugadores]",
+   "jugadores": 4,
+   "nivel": 5,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 4 JUGADORES (el libro está pensado para 4: amenaza 3.5; objetivo escalado 3.5; composición con amenaza 3.5).\nComposición: 1 Matón, 3 Soldado de guarnición.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nLa cripta de la eternidad, «Los planos de la fortaleza Hasting». Solo si falla la argucia: un matón y soldados de guarnición arrastran al comedor a cualquier PJ infiltrado, donde están Cett y su grupo (el libro pone 1 matón y 3 soldados). Los PJs ya expulsados pueden irrumpir al inicio de la 1.ª ronda.\nRefuerzos del libro: otros tres soldados de guarnición al inicio de cada ronda posterior a la primera hasta que el grupo escape (no los he añadido; no cuentan para la amenaza). Es una pelea imposible de ganar: los PJs deben darse cuenta de que tienen que huir.",
+   "combatientes": [
+    {
+     "id": "j6gieyqc",
+     "fuente": "Matón (Legado)",
+     "nombre": "Matón",
+     "rol": "Rival",
+     "rango": 2,
+     "amenazaManual": null,
+     "salud": {
+      "act": 45,
+      "max": 45
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      36,
+      54
+     ],
+     "atributos": {
+      "fue": 5,
+      "vel": 3,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 3
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "qc6avtpu",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "fk1iktg6",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "bw6va6cc",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 3",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c6ksfdke",
+   "nombre": "Cap. 4 · Fortaleza Hasting: guardias de Cett [5 jugadores]",
+   "jugadores": 5,
+   "nivel": 5,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 5 JUGADORES (el libro está pensado para 4: amenaza 3.5; objetivo escalado 4.375; composición con amenaza 4).\nComposición: 1 Matón, 4 Soldado de guarnición.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nLa cripta de la eternidad, «Los planos de la fortaleza Hasting». Solo si falla la argucia: un matón y soldados de guarnición arrastran al comedor a cualquier PJ infiltrado, donde están Cett y su grupo (el libro pone 1 matón y 3 soldados). Los PJs ya expulsados pueden irrumpir al inicio de la 1.ª ronda.\nRefuerzos del libro: otros tres soldados de guarnición al inicio de cada ronda posterior a la primera hasta que el grupo escape (no los he añadido; no cuentan para la amenaza). Es una pelea imposible de ganar: los PJs deben darse cuenta de que tienen que huir.",
+   "combatientes": [
+    {
+     "id": "yxmx2ss4",
+     "fuente": "Matón (Legado)",
+     "nombre": "Matón",
+     "rol": "Rival",
+     "rango": 2,
+     "amenazaManual": null,
+     "salud": {
+      "act": 45,
+      "max": 45
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      36,
+      54
+     ],
+     "atributos": {
+      "fue": 5,
+      "vel": 3,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 3
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "v90tv1ep",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "vp122irh",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "svjh8bq5",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 3",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "kfarppj2",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 4",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cj2gy2wu",
+   "nombre": "Cap. 4 · Fortaleza Hasting: guardias de Cett [6 jugadores]",
+   "jugadores": 6,
+   "nivel": 5,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 6 JUGADORES (el libro está pensado para 4: amenaza 3.5; objetivo escalado 5.25; composición con amenaza 5.5).\nComposición: 2 Matón, 3 Soldado de guarnición.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nLa cripta de la eternidad, «Los planos de la fortaleza Hasting». Solo si falla la argucia: un matón y soldados de guarnición arrastran al comedor a cualquier PJ infiltrado, donde están Cett y su grupo (el libro pone 1 matón y 3 soldados). Los PJs ya expulsados pueden irrumpir al inicio de la 1.ª ronda.\nRefuerzos del libro: otros tres soldados de guarnición al inicio de cada ronda posterior a la primera hasta que el grupo escape (no los he añadido; no cuentan para la amenaza). Es una pelea imposible de ganar: los PJs deben darse cuenta de que tienen que huir.",
+   "combatientes": [
+    {
+     "id": "cegxuzwb",
+     "fuente": "Matón (Legado)",
+     "nombre": "Matón 1",
+     "rol": "Rival",
+     "rango": 2,
+     "amenazaManual": null,
+     "salud": {
+      "act": 45,
+      "max": 45
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      36,
+      54
+     ],
+     "atributos": {
+      "fue": 5,
+      "vel": 3,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 3
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "nblwsjvd",
+     "fuente": "Matón (Legado)",
+     "nombre": "Matón 2",
+     "rol": "Rival",
+     "rango": 2,
+     "amenazaManual": null,
+     "salud": {
+      "act": 45,
+      "max": 45
+     },
+     "concentracion": {
+      "act": 5,
+      "max": 5
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      36,
+      54
+     ],
+     "atributos": {
+      "fue": 5,
+      "vel": 3,
+      "int": 1,
+      "vol": 3,
+      "dis": 3,
+      "pre": 3
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "qgjfy32c",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 1",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "nqzz8e1v",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 2",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    },
+    {
+     "id": "efq0bi6f",
+     "fuente": "Soldado de guarnición (Legado)",
+     "nombre": "Soldado de guarnición 3",
+     "rol": "Secuaz",
+     "rango": 1,
+     "amenazaManual": null,
+     "salud": {
+      "act": 12,
+      "max": 12
+     },
+     "concentracion": {
+      "act": 3,
+      "max": 3
+     },
+     "investidura": {
+      "act": 0,
+      "max": 0
+     },
+     "desvio": 2,
+     "movimiento": "7,5 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      9,
+      15
+     ],
+     "atributos": {
+      "fue": 2,
+      "vel": 2,
+      "int": 2,
+      "vol": 1,
+      "dis": 2,
+      "pre": 1
+     },
+     "artesPrevios": false
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c818i2ya",
+   "nombre": "Cap. 4 · El papel de Enge: Delina Tekiel [4 jugadores]",
+   "jugadores": 4,
+   "nivel": 5,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 4 JUGADORES: Delina con la salud mínima de su ficha.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nLa cripta de la eternidad, muelles del Channerel. Delina ataca a Enge (NeBaal) ante la barcaza; los PJs pueden apartarse y saltarse el combate. Enge se une a los PJs pero se niega a atacar (usa Agarrar 2, Empujar 2 o Ayudar r).\nDelina tiene una cuenta de atium que quema en cuanto puede (una Oportunidad permite acabar con Quemar atium). Cada ronda usa Charlar (0) para manipular: amenazar a la banda, mentir sobre Enge, sembrar desconfianza.\nSi un ataque de Delina deja a Enge o a un PJ a 0 de salud no hay tirada de lesión: Enge interviene con «La jugada del sacrificio» y se entrega. Si los PJs la derrotan, protegen a Enge de la Élite Dorada. En ambos casos sigue «La confesión de NeBaal».\nMomento de legado del Noble: los ataques de Delina infligen doble daño al Noble, y los del Noble le infligen doble daño a ella.\nDelina es Jefa de rango 2 y el grupo de rango 1: la tabla de amenaza le da 8 (por encima de difícil con 4 o 5 PJs, difícil con 6). No se puede rebajar quitando enemigos, así que las versiones varían su salud (mínima, normal y máxima de su ficha).",
+   "combatientes": [
+    {
+     "id": "c51pelht",
+     "fuente": "Delina Tekiel",
+     "nombre": "Delina Tekiel",
+     "rol": "Jefe",
+     "rango": 2,
+     "amenazaManual": null,
+     "salud": {
+      "act": 124,
+      "max": 124
+     },
+     "concentracion": {
+      "act": 8,
+      "max": 8
+     },
+     "investidura": {
+      "act": 8,
+      "max": 8
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      124,
+      186
+     ],
+     "atributos": {
+      "fue": 4,
+      "vel": 4,
+      "int": 2,
+      "vol": 4,
+      "dis": 3,
+      "pre": 4
+     },
+     "artesPrevios": true
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "cqkm78rq",
+   "nombre": "Cap. 4 · El papel de Enge: Delina Tekiel [5 jugadores]",
+   "jugadores": 5,
+   "nivel": 5,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 5 JUGADORES: Delina con su salud normal.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nLa cripta de la eternidad, muelles del Channerel. Delina ataca a Enge (NeBaal) ante la barcaza; los PJs pueden apartarse y saltarse el combate. Enge se une a los PJs pero se niega a atacar (usa Agarrar 2, Empujar 2 o Ayudar r).\nDelina tiene una cuenta de atium que quema en cuanto puede (una Oportunidad permite acabar con Quemar atium). Cada ronda usa Charlar (0) para manipular: amenazar a la banda, mentir sobre Enge, sembrar desconfianza.\nSi un ataque de Delina deja a Enge o a un PJ a 0 de salud no hay tirada de lesión: Enge interviene con «La jugada del sacrificio» y se entrega. Si los PJs la derrotan, protegen a Enge de la Élite Dorada. En ambos casos sigue «La confesión de NeBaal».\nMomento de legado del Noble: los ataques de Delina infligen doble daño al Noble, y los del Noble le infligen doble daño a ella.\nDelina es Jefa de rango 2 y el grupo de rango 1: la tabla de amenaza le da 8 (por encima de difícil con 4 o 5 PJs, difícil con 6). No se puede rebajar quitando enemigos, así que las versiones varían su salud (mínima, normal y máxima de su ficha).",
+   "combatientes": [
+    {
+     "id": "chagwnsv",
+     "fuente": "Delina Tekiel",
+     "nombre": "Delina Tekiel",
+     "rol": "Jefe",
+     "rango": 2,
+     "amenazaManual": null,
+     "salud": {
+      "act": 155,
+      "max": 155
+     },
+     "concentracion": {
+      "act": 8,
+      "max": 8
+     },
+     "investidura": {
+      "act": 8,
+      "max": 8
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      124,
+      186
+     ],
+     "atributos": {
+      "fue": 4,
+      "vel": 4,
+      "int": 2,
+      "vol": 4,
+      "dis": 3,
+      "pre": 4
+     },
+     "artesPrevios": true
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c9fn665a",
+   "nombre": "Cap. 4 · El papel de Enge: Delina Tekiel [6 jugadores]",
+   "jugadores": 6,
+   "nivel": 5,
+   "ajuste": 0,
+   "notas": "VERSIÓN PARA 6 JUGADORES: Delina con la salud máxima de su ficha.\n\nRango del grupo: todo el tramo de la Era 1 es de rango 1 (niveles 1-5); los PJs no llegan al nivel 6 (rango 2) hasta terminar la cripta.\nLa cripta de la eternidad, muelles del Channerel. Delina ataca a Enge (NeBaal) ante la barcaza; los PJs pueden apartarse y saltarse el combate. Enge se une a los PJs pero se niega a atacar (usa Agarrar 2, Empujar 2 o Ayudar r).\nDelina tiene una cuenta de atium que quema en cuanto puede (una Oportunidad permite acabar con Quemar atium). Cada ronda usa Charlar (0) para manipular: amenazar a la banda, mentir sobre Enge, sembrar desconfianza.\nSi un ataque de Delina deja a Enge o a un PJ a 0 de salud no hay tirada de lesión: Enge interviene con «La jugada del sacrificio» y se entrega. Si los PJs la derrotan, protegen a Enge de la Élite Dorada. En ambos casos sigue «La confesión de NeBaal».\nMomento de legado del Noble: los ataques de Delina infligen doble daño al Noble, y los del Noble le infligen doble daño a ella.\nDelina es Jefa de rango 2 y el grupo de rango 1: la tabla de amenaza le da 8 (por encima de difícil con 4 o 5 PJs, difícil con 6). No se puede rebajar quitando enemigos, así que las versiones varían su salud (mínima, normal y máxima de su ficha).",
+   "combatientes": [
+    {
+     "id": "c1wbqbc6",
+     "fuente": "Delina Tekiel",
+     "nombre": "Delina Tekiel",
+     "rol": "Jefe",
+     "rango": 2,
+     "amenazaManual": null,
+     "salud": {
+      "act": 186,
+      "max": 186
+     },
+     "concentracion": {
+      "act": 8,
+      "max": 8
+     },
+     "investidura": {
+      "act": 8,
+      "max": 8
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      124,
+      186
+     ],
+     "atributos": {
+      "fue": 4,
+      "vel": 4,
+      "int": 2,
+      "vol": 4,
+      "dis": 3,
+      "pre": 4
+     },
+     "artesPrevios": true
+    }
+   ],
+   "historial": []
+  },
+  {
+   "id": "c0m0tndn",
+   "nombre": "Cap. 2 · Persecución de Delina (empeño)",
+   "jugadores": 4,
+   "nivel": 2,
+   "ajuste": 0,
+   "notas": "Tras los mataneblinos del laberinto, Delina persigue el carruaje: empeño «Acortar distancias» (distancia inicial 3, huida 6; cada éxito del grupo la sube 1, cada éxito de Delina la baja 1; a 0 los alcanza).\nFicha de Delina para las pruebas enfrentadas: puerta (Intimidación del grupo contra su Liderazgo +7, o Hurto contra su Perspicacia +6), suburbios de Fellise (Supervivencia contra su Percepción +6, o Persuasión contra su Intimidación +6), camino a Luthadel (Agilidad contra su Alomancia +7, o Engaño contra su Perspicacia +6).\nO: sus reservas de metal se agotan y la distancia sube 1. C: se rompe una rueda del carruaje (Manufactura CD 12). Los tambores de advertencia de Straff la hacen retirarse. Amenaza a 0 porque no es un combate.",
+   "combatientes": [
+    {
+     "id": "cxx50kfw",
+     "fuente": "Delina Tekiel",
+     "nombre": "Delina Tekiel",
+     "rol": "Jefe",
+     "rango": 2,
+     "amenazaManual": 0,
+     "salud": {
+      "act": 155,
+      "max": 155
+     },
+     "concentracion": {
+      "act": 8,
+      "max": 8
+     },
+     "investidura": {
+      "act": 8,
+      "max": 8
+     },
+     "desvio": 0,
+     "movimiento": "9 m",
+     "estados": [],
+     "lesiones": [],
+     "modulos": [],
+     "notas": "",
+     "saludRango": [
+      124,
+      186
+     ],
+     "atributos": {
+      "fue": 4,
+      "vel": 4,
+      "int": 2,
+      "vol": 4,
+      "dis": 3,
+      "pre": 4
+     },
+     "artesPrevios": true
+    }
+   ],
+   "historial": []
+  }
+ ]
+}
